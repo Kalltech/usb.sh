@@ -34,6 +34,6 @@ do
 	if [ "$i" != "0"  ]; then
 		output="$output|"
 	fi
-	output="$output${locArr[$i]}"
+	output="$output${locArr[$i]}: ${snArr[$i]}"
 done
 echo $output
